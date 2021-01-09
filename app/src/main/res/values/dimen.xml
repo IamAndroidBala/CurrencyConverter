@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_padding_16"> 16dp </dimen>
+    <dimen name="common_padding_5">5dp</dimen>
+    <dimen name="common_padding_10">10dp</dimen>
+
+    <dimen name="text_heading"> 22sp</dimen>
+    <dimen name="text_sub_heading"> 20sp</dimen>
+    <dimen name="text_content"> 18sp</dimen>
+</resources>
