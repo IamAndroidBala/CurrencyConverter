@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    app:cardCornerRadius="@dimen/common_padding_5"
+    android:layout_marginTop="@dimen/common_padding_5"
+    android:layout_marginBottom="@dimen/common_padding_5"
+    android:layout_marginLeft="@dimen/common_padding_10"
+    android:layout_marginRight="@dimen/common_padding_10"
+    app:cardElevation="@dimen/common_padding_10">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvCurrencyCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:fontFamily="@font/sukhumvitset_bold"
+            android:textColor="#000"
+            android:textSize="@dimen/text_heading" />
+
+        <TextView
+            android:id="@+id/tvCurrencyValue"
+            android:layout_below="@+id/tvCurrencyCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="10"
+            android:fontFamily="@font/sukhumvitset_medium"
+            android:textSize="@dimen/text_content" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -24,3 +24,9 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    retrofit    = '2.6.2'
+    gson        = '2.6.2'
+    jakewharton = '1.1.0'
+}

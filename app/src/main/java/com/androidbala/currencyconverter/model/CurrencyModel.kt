@@ -5,3 +5,8 @@ data class CurrencyModel(var code: String, var name: String){
         return name
     }
 }
+
+data class ConversionModel(var code: String, var rate: Double?){
+
+}
+

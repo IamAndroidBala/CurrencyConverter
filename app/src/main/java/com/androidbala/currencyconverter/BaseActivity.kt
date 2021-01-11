@@ -3,6 +3,9 @@ package com.androidbala.currencyconverter
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
+/**
+ * base activity for app
+ */
 abstract class BaseActivity : AppCompatActivity() {
 
     abstract fun contentView() : Int

@@ -10,6 +10,10 @@ import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.androidbala.currencyconverter.utils.Utility
 
+/**
+ * Launch screen for this app
+ * it should wait for a minute
+ */
 class SplashScreenActivity : AppCompatActivity() {
 
     @Suppress("DEPRECATION")
